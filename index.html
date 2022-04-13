@@ -7,10 +7,10 @@
     <title>form_item</title>
   </head>
   <body>
-    <input type="button" value="OK" />
-    <button>OK</button>
-    <br/>
-    <input type="button" value="OK" disabled />
-    <button disabled>OK</button>
+    <form action="process.php" method="post">
+      <label>担当者名:<input type="text" name="username"></label>
+      <label>タスク:<input type="text" name="task"></label>
+      <button>追加</button>
+    </form>
   </body>
 </html>
